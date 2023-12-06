@@ -1,0 +1,42 @@
+.encabezado{
+    font-size: 23px;
+    width: 100%;
+    margin: 0;
+}
+.nota{
+    font-size: 15px;
+    color: darkblue;
+}
+body{
+    background-size: cover;
+}
+.div_velocidad{
+    float: left;
+}
+.div_speed_imagen{
+    width: 200px;
+    border-radius: 100px;
+}
+#velocidad{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volumen{
+    float: right;
+}
+.div_volumen_imagen{
+    width: 200px;
+    border-radius: 100px;
+}
+#volumen{
+    font-size: 23px;
+    margin: 15px;
+}
+boton_reproducir{
+    width: 150px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+}

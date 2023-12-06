@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+</head>
+<body background="background.jpg">
+    <center>
+        <h3 class="btn btn-warning encabezado">APP WEB DE DJ CON IA
+            <br>
+            <span class="nota">NOTA: mueve la muñeca izquierda hacia arriba y hacia abajo para subir o bajar el volumen. Mueve la muñeca derecha hacia arriba y hacia abajo para disminuir o aumentar la velocidad.</span>
+        </h3>
+
+        <div class="div_velocidad">
+            <img src="disk.gif" class="div_speed_imagen">
+            <br>
+            <h3 class="btn btn-danger" id="velocidad">Velocidad</h3>
+        </div>
+
+        <div class="div_volumen">
+            <img src="disk.gif" class="div_volumen_imagen">
+            <br>
+            <h3 class="btn btn-danger" id="velocidad">Volumen</h3>
+        </div>
+
+        <br><br>
+
+        <button onclick="reproducir();" class="btn btn-success boton_reproducir">Reproducir</button>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
